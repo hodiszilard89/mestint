@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="probaTectangle" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#gombnyomas" prefHeight="550.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proba1.HelloController">
+   <children>
+      <Button fx:id="utvonalBtn" layoutX="47.0" layoutY="459.0" mnemonicParsing="false" onAction="#eloreLepHandel" prefHeight="53.0" prefWidth="147.0" text="előrelépés">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btnUjra" layoutX="279.0" layoutY="459.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="53.0" prefWidth="147.0" text="új térkép/ state">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <AnchorPane id="palya" fx:id="fx_palya" layoutX="14.0" layoutY="14.0" prefHeight="400.0" prefWidth="480.0" style="-fx-background-color: lightgray; " />
+      <Label fx:id="labelFx" layoutX="507.0" layoutY="41.0" prefHeight="32.0" prefWidth="263.0" textAlignment="JUSTIFY" textFill="RED" textOverrun="CLIP">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+<!--      -fx-border-color: black;-->
+   </children>
+</AnchorPane>
